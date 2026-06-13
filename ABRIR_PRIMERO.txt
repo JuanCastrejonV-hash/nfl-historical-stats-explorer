@@ -1,0 +1,46 @@
+PROYECTO: NFL Historical Stats Explorer
+
+Este proyecto usa:
+- MySQL como base de datos
+- Python para cargar datos
+- Node.js/Express como backend
+- JSON como formato de API
+- HTML, CSS y JavaScript como frontend
+
+PASOS PARA EJECUTAR:
+
+1. Abrir MySQL Workbench.
+2. Crear la base:
+
+CREATE DATABASE nfl_db;
+USE nfl_db;
+
+3. Desde CMD, entrar a la carpeta del proyecto:
+
+cd C:\Users\pc\Documents\nfl-api
+
+4. Cargar datos a MySQL:
+
+py load_nfl_to_mysql.py
+
+5. Entrar al backend:
+
+cd backend
+
+6. Instalar dependencias:
+
+npm install
+
+7. Crear archivo .env usando .env.example como referencia.
+
+8. Ejecutar backend:
+
+node index.js
+
+9. Abrir en navegador:
+
+http://localhost:3000/api
+
+10. Abrir el frontend:
+
+frontend/index.html
